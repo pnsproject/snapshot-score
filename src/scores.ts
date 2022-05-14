@@ -1,5 +1,5 @@
 import events from 'events';
-import snapshot from '@snapshot-labs/strategies';
+import snapshot from './snapshot-strategies';
 import { get, set } from './aws';
 import { paginateStrategies, sha256 } from './utils';
 import getProvider from './provider';

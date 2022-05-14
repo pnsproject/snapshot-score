@@ -1,7 +1,11 @@
 .DS_Store
+.env
+yarn.lock
 node_modules
 dist
 build
+
+src/snapshot-strategies
 
 # Remove some common IDE working directories
 .idea

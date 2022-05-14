@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import express from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors';
@@ -12,3 +13,4 @@ app.use(cors({ maxAge: 86400 }));
 app.use('/api', api);
 
 app.listen(PORT, () => console.log(`Listening at http://localhost:${PORT}`));
+console.log(process.env)
