@@ -2,12 +2,15 @@
   "compilerOptions": {
     "target": "esnext",
     "module": "commonjs",
+    "declaration": true,
+    "noUnusedLocals": true,
     "rootDir": "./",
     "outDir": "./build",
     "esModuleInterop": true,
     "strict": true,
     "noImplicitAny": false,
     "resolveJsonModule": true,
-    "moduleResolution": "Node"
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true
   }
 }

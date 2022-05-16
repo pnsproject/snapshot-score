@@ -39,7 +39,7 @@ export async function strategy(
     }
   }));
 
-  const responses = await Promise.all(
+  const responses: any = await Promise.all(
     requests.map((request) => subgraphRequest(url[network], request))
   );
 
