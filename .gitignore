@@ -5,8 +5,9 @@ node_modules
 dist
 build
 
-src/snapshot-strategies
+# src/snapshot-strategies
 
 # Remove some common IDE working directories
 .idea
 .vscode
+yarn-error.log
